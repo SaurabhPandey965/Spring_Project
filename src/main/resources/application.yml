@@ -1,0 +1,40 @@
+server:
+  port: 8080
+  
+spring:
+ jpa:
+  hibernate:
+   ddl-auto: update
+  properties:
+   hibernate:
+     dialect: org.hibernate.dialect.MySQL5Dialect
+       
+ datasource:
+    url: jdbc:mysql://localhost:3306/UserDb?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: Saurabh!1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+ mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+ main:
+    allow-circular-references: true
+    
+file:
+  upload-dir: .\uploadFile
+    
+# kafka:
+#    consumer:
+#      bootstrap-servers: localhost:9092
+#      group-id: group_id
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#    producer:
+#        bootstrap-servers: localhost:9092
+#        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#        value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#        
+        
+        
+    

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserDto>
+	<id>1</id>
+	<userName>saurabh@123</userName>
+	<password>saurabh123</password>
+	<firstName>saurabh</firstName>
+    <lastName>pandey</lastName>
+    <phone>9650685006</phone>
+    <email>sauabh123@gmail.com</email>
+
+	
+</UserDto>
+	
